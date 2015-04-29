@@ -1,7 +1,0 @@
-<phpunit>
-   <filter>
-        <blacklist>
-              <directory>./src/vendor</directory>
-        </blacklist>
-    </filter>
-</phpunit>

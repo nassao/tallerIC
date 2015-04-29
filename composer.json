@@ -1,0 +1,13 @@
+{
+    "name": "tallerIC",
+    "description": "Taller de integracion continua.",
+    "keywords": ["Integracion continua", "kler"],
+    "license": "MIT",
+    "require": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}

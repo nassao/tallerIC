@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="functionaltest" tests="1" assertions="1" failures="0" errors="0" time="6.781288">
-    <testsuite name="GoogleTest" file="/Users/yamitcardenas/desarrollo/workspace/katas/php/functionaltest/GoogleTest.php" tests="1" assertions="1" failures="0" errors="0" time="6.781288">
-      <testcase name="testSearch" class="GoogleTest" file="/Users/yamitcardenas/desarrollo/workspace/katas/php/functionaltest/GoogleTest.php" line="18" assertions="1" time="6.781288"/>
+  <testsuite name="functionaltest" tests="1" assertions="0" failures="0" errors="1" time="0.024412">
+    <testsuite name="GoogleTest" file="/var/www/tallerIC/functionaltest/GoogleTest.php" tests="1" assertions="0" failures="0" errors="1" time="0.024412">
+      <testcase name="testSearch" class="GoogleTest" file="/var/www/tallerIC/functionaltest/GoogleTest.php" line="18" assertions="0" time="0.024412">
+        <error type="PHPUnit_Framework_ExceptionWrapper">GoogleTest::testSearch
+WebDriverCurlException: Curl error thrown for http POST to /session with params: {"desiredCapabilities":{"browserName":"firefox","platform":"ANY"}}
+
+Failed to connect to localhost port 4444: Connection refused
+
+/var/www/tallerIC/src/vendor/facebook/webdriver/lib/WebDriverExceptions.php:50
+/var/www/tallerIC/src/vendor/facebook/webdriver/lib/remote/HttpCommandExecutor.php:235
+/var/www/tallerIC/src/vendor/facebook/webdriver/lib/remote/RemoteWebDriver.php:81
+/var/www/tallerIC/functionaltest/GoogleTest.php:23
+</error>
+      </testcase>
     </testsuite>
   </testsuite>
 </testsuites>
