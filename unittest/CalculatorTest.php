@@ -15,7 +15,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase {
         $result = $calculator->plus(1, 1);
 
 
-        $this->assertEquals(22, $result);
+        $this->assertEquals(2, $result);
     }
 
 }
