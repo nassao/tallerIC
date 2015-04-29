@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="unittest" tests="1" assertions="1" failures="0" errors="0" time="0.008695">
-    <testsuite name="CalculatorTest" file="/var/www/tallerIC/unittest/CalculatorTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.008695">
-      <testcase name="testPlus" class="CalculatorTest" file="/var/www/tallerIC/unittest/CalculatorTest.php" line="8" assertions="1" time="0.008695"/>
+  <testsuite name="unittest" tests="1" assertions="1" failures="1" errors="0" time="0.039339">
+    <testsuite name="CalculatorTest" file="/var/www/tallerIC/unittest/CalculatorTest.php" tests="1" assertions="1" failures="1" errors="0" time="0.039339">
+      <testcase name="testPlus" class="CalculatorTest" file="/var/www/tallerIC/unittest/CalculatorTest.php" line="8" assertions="1" time="0.039339">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">CalculatorTest::testPlus
+Failed asserting that 2 matches expected 22.
+
+/var/www/tallerIC/unittest/CalculatorTest.php:18
+</failure>
+      </testcase>
     </testsuite>
   </testsuite>
 </testsuites>
